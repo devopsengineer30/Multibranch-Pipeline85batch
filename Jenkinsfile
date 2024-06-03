@@ -10,7 +10,7 @@ pipeline {
      
         stage('hotfix') { 
             steps { 
-               sh 'echo "This is hotfix branch"'
+               sh 'echo "This is hotfix branch changes..."'
             }
         }
 
