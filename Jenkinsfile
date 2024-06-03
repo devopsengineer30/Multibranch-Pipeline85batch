@@ -8,9 +8,9 @@ pipeline {
             }
         }
      
-        stage('sprint1') { 
+        stage('hotfix') { 
             steps { 
-               sh 'echo "This is Sprint1 branch"'
+               sh 'echo "This is hotfix branch"'
             }
         }
 
